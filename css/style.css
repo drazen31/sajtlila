@@ -1,0 +1,534 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.drugi-container {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 20px;
+	background: url('http://pharaohlab.com/lila/demo/assets/img/bg/intro1.png') no-repeat ;
+	
+	background-size: 100%;
+	height: 650px;
+	
+	background-repeat: no-repeat;
+	
+	text-align: center;
+	color: white;
+	background-color: rgba(227, 227, 227, 0.8);
+
+	background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.second-section {
+	width: 58%;
+	margin: 0 auto;
+	padding-top: 200px;	
+	padding-bottom: 200px;
+
+   
+}
+@media screen and (max-width: 623px) {
+	.second-section {
+	width: 58%;
+	margin: 0 auto;
+	padding-top: 50px;	
+	padding-bottom: 50px;
+	}
+}
+	
+.second-opacity {
+    position: absolute;
+    height: 650px;
+    width: 100%;
+    top: 0;
+   background-color: rgba(0,0,0, 0.6);
+}
+
+.video-btn {
+	background-color: transparent;
+}
+
+.fa-play {
+	padding: 10px;
+	border: 1px solid gray;
+	font-size: 16px;
+	color: #28a4c9;
+	border-radius: 50%;
+}
+
+.video-btn:hover {
+	color: whitesmoke;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>kraj drugog dela<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<, */
+
+.three-section {
+	padding: 90px 0;
+	text-align: center;
+	opacity: .9;
+}
+.icon_box_two i {
+	padding-top: 50px;
+	font-size: 35px;
+	color: #71C9EB;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>kraj treceg dela<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.what-we-offer {
+	border: 1px solid #f8f8f8;
+	background-color: white;
+	text-align: center;
+	margin: 15px 0;
+	padding: 20px 25px 20px;
+    border-radius: 2px;
+	
+}
+#services {
+	opacity: 0.9;
+	background-color: #f8f8f8;
+	padding-bottom: 50px;
+}
+.four-naslov {
+	margin-bottom: 30px;
+}
+.four-naslov p {
+	font-size: 30px;
+}
+
+.spanoffer{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-size: 45px;
+	color: #188ae2;
+}
+.what-we-offer span {
+	margin-bottom: 10px;
+	font-size: 45px;
+	
+	
+}
+.what-we-offer h4 {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.what-we-offer p {
+	font-size: 13px;
+
+}
+.what-we-offer:hover {
+
+	box-shadow: 0 0 12px 5px rgba(10, 10, 10, 0.10)
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>  kraj cetvrtog dela  <<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.projects-slike {
+	padding: 1px;
+}
+.projects-slike img {
+	width: 100%;
+}
+.slike-lista {
+	padding-bottom: 50px;
+	padding-top: 30px;
+	width: 85%;
+	margin: 0 auto;
+}
+#projects {
+	padding-top: 40px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<< kraj petog dela <<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.sadrzaj6 {
+	padding: 60px 0;
+}
+.sesti {
+
+    width: 100%;
+    min-height: 280px;
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+	background-image: url(http://pharaohlab.com/lila/demo/assets/img/bg/bg2.png);
+
+}
+.statistika span {
+	font-size: 48px;
+    color: #828A8C;
+}
+
+.statistika p {
+	color: whitesmoke;
+    font-size: 38px;
+    margin: 20px 0;
+    font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+}
+
+.statistika h4 {
+	color: whitesmoke;
+	font-size: 14px;
+	opacity: 0.7;
+}
+.pozadina6 {
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
+/*>>>>>>>>>>>>>>>>>>>  zavrsen sesti deo  <<<<<<<<<<<<<<<<<<<<<*/
+
+.onebtn,
+.twobtn,
+.threebtn,
+.fourbtn {
+	width: 35px;
+	height: 35px;
+	border-radius: 3px;
+	margin: 3px;
+	text-align: center;
+	
+}
+
+.onebtn a,
+.twobtn a,
+.threebtn a,
+.fourbtn a {
+	color: white;
+}
+
+
+.chooseplan-sedam img {
+	height: 125px;
+    margin-bottom: 15px;
+}
+#team {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f8f8f8;
+}
+.chooseplan-sedam ul li {
+	padding: 6px 12px!important;
+}
+
+.chooseplan-sedam h6 {
+	color: #585858!important;
+}
+
+/*<<<<<<<<<<<<<<<< zavrsen sedmi deo  >>>>>>>>>>>>>>>>>>>>>*/
+
+.text-iznad-progresa p {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.text-iznad-progresa span {
+	color: #0099ff;
+}
+
+.progress {
+	height: 5px;
+}
+.progress-bar {
+	background-color: #0099ff;
+}
+
+.text-osam {
+	opacity: .9;
+}
+
+.cont-osmi {
+	padding: 50px 50px;
+}
+
+.cont-osmi i {
+	color: #0099ff;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.cont-osmi h2 {
+	margin-top: 0px;
+	margin-bottom: 25px;
+	font-weight: bold;
+	opacity: .9;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>  zavrsen osmi deo <<<<<<<<<<<<<<<*/
+
+
+
+.deveti {
+    width: 100%;
+    min-height: 330px;
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+	background-image: url(http://pharaohlab.com/lila/demo/assets/img/bg/bg2.png);
+}
+
+.pozadina9 {
+	min-height: 330px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sadrzaj9 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.sadrzaj9 img {
+	margin-top: 15px;
+	height: 80px;
+}
+.sadrzaj9 i {
+	color: #dda219;
+}
+.fa-quote-right {
+	color: #B9C5C9!important;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.sadrzaj9 p {
+	margin: 10px 0 10px;
+	color: #B9C5C9;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<< zavrsen deveti deo  >>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+#pricing {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background-color: #f8f8f8;
+}
+.chooseplan ul li {
+	padding: 7px 15px;
+    list-style: none;
+    font-size: 13px;
+    color: #999;
+}
+
+
+.chooseplan {
+	margin-top: 30px;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+    color: #585858;
+	padding: 20px 20px;
+	font-size: 56px;
+	background-color: white;
+	border: 1px solid #f8f8f8;
+}
+
+.chooseplan h6 {
+	color: black;
+    font-weight: 600;
+}
+
+.chooseplan sup {
+	top: -.5em;
+	font-size: 30px;
+    font-weight: 200;
+    margin-right: 5px;
+}
+.chooseplan p {
+	font-size: 14px;
+}
+#blue-h6 {
+	color: #0099ff;
+}
+
+.chooseplan:hover {
+	box-shadow: 0 0 12px 5px rgba(10, 10, 10, 0.10)
+}
+
+.glyphicon {
+	color: #0099ff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<< zavrsen deseti deo  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#blog {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background-color: white;
+}
+
+
+.chooseplan11 {
+	margin-top: 30px;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+    color: #585858;
+	
+	font-size: 56px;
+	background-color: white;
+	border: 1px solid #f8f8f8;
+}
+
+.chooseplan11 h6 {
+	color: black;
+    font-weight: 600;
+}
+
+
+.chooseplan11 p {
+	font-size: 14px;
+}
+
+
+.chooseplan:hover {
+	box-shadow: 0 0 12px 5px rgba(10, 10, 10, 0.10)
+}
+
+.glyphicon {
+	color: #0099ff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.slika11 {
+	overflow: hidden;
+}
+
+
+.chooseplan11 img {
+	width: 100%;
+	
+}
+
+.chooseplan11 img:hover {
+	transform: scale(1.1);
+}
+
+.text-11 {
+	background-color: #f8f8f8;
+	padding: 15px 10px;
+}
+.text-11 h6 {
+	font-size: 15px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.  zavrsen jedanaesti deo >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.informacije {
+	padding-top: 40px;
+	margin: 0 180px;
+}
+
+#contact {
+	background-color: #f8f8f8;
+}
+
+.no-border-no-radius {
+
+	border: 1px solid #f8f8f8;
+	border-radius: 0px;
+}
+
+.fa-comments-o {
+
+	color: #0099ff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.input-group-addon {
+	background: #ffffff;
+    border: 1px solid #fafafa;
+    border-radius: 0;
+    
+    
+}
+
+.send-button {
+	border-radius: 0px;
+	width: 30%;
+}
+
+@media screen and (max-width: 767px) {
+	.informacije {
+		margin: 0px;
+	}
+	.send-button {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 991px) (min-width: 767px) {
+	.informacije {
+		margin: 0 90px;
+	}
+	
+}
+
+.contact-div i {
+	color: #242424;
+}
+
+.contact-div {
+	margin-bottom: 40px;
+	margin-top: 50px;
+}
+
+.embed-responsive-16by9,
+.embed-responsive,
+.embed-responsive-item {
+	height: 300px!important;
+	margin: 0px 0px!important;
+	padding: 0px!important;
+}
+.da-popuni-mapu {
+	height: 300px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<  zavrsen dvanaesti deo   >>>>>>>>>>>>>>>>>>>>>>>*/
+
+footer {
+	padding-top: 50px;
+	background-color: #222328;
+}
+
+footer p,
+footer h5,
+footer h2 {
+	color: #eee;
+}
+
+footer h5,
+footer h2 {
+	font-weight: bold;
+}
+
+footer ul li a {
+	color: #999;
+}
+
+footer ul li a:hover {
+	color: ##0099ff;
+	text-decoration: none;
+}
+
+address {
+	color: #eee;
+}
+
+.footer-donji-deo {
+	
+    background-color: #1d1e20;
+    padding: 15px 0 10px;
+}
+
+.footer-donji-deo p {
+	color: #999;
+}
+
+.logo {
+	margin-top: 0px;
+}
